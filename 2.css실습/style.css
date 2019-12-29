@@ -1,0 +1,40 @@
+h1 {
+  /* 개발자 도구를 이용하여 편리하게 편집이 가능하다 */
+  text-align: center;
+  margin-top: 233px;
+  font-size: 80px;
+}
+h1 span:nth-child(1) {
+  color: #4285f4;
+}
+h1 span:nth-child(2) {
+  color: #4285f4;
+}
+h1 span:nth-child(3) {
+  color: #ea4335;
+}
+h1 span:nth-child(4) {
+  color: #fbbc05;
+}
+h1 span:nth-child(5) {
+  color: #4285f4;
+}
+h1 span:nth-child(6) {
+  color: #ea4335;
+}
+h1 span:nth-child(7) {
+  color: #fbbc05;
+}
+h1 span:nth-child(8) {
+  color: #4285f4;
+}
+h1 span:nth-child(9) {
+  color: #34a853;
+}
+h1 span:nth-child(10) {
+  color: #ea4335;
+}
+.search-bar {
+  width: 500px;
+}
+/*띄어쓰기는 자손을 표현하는  css표현법 위를 예를 들면 h1태그의 span태그만 선택 */

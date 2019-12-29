@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dongoogle</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- 코드의 아래줄에 있을수록 css의 우선순위가 높다 -->
+    <!-- link 태그: css와 연결하기위해서 만듬 href에 연결할 파일 주소작성 같은 폴더에 있기 때문에 파일이름만 적음 -->
+  </head>
+  <body>
+    <h1>
+      <!-- 각 글자 모두 h1태그의 자식들이기때문에 순서를 매겨줄수있다. -->
+      <span>5</span><span>D</span><span>o</span><span>n</span><span>g</span
+      ><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span>
+    </h1>
+    <!-- input 태그: 입력하는 칸을 만드는 태그 -->
+    <!-- form 태그 : 정보를 전송하는 태그 -->
+    <form action="https://www.google.com/search" method="GET">
+      <!-- action은 어디로 향할지  method는 전송방식 -->
+      <!-- GET: 주소창에 정보를 포함하여 전달하는 정보전송방식 -->
+      <!-- POST: 주소창에 정보를 표시하지않고 내부적으로 정보를 전달하는 정보전송방식 -->
+      <div class="mx-auto mt-5 search-bar input-group mb-3">
+        <!-- 띄어쓰기를 이용하여 하나의 태그를 여러개의 클래스로 지정가능 ,미리정의된 클래스도 사용가능하다 부트스트랩을이용 -->
+        <input
+          name="q"
+          type="text"
+          class="form-control rounded-pill"
+          placeholder="Google 검색 또는 URL 입력"
+          aria-label="Recipient's username"
+          aria-describedby="button-addon2"
+        />
+      </div>
+    </form>
+  </body>
+</html>
+<!-- inline 요소: 문잗 등 직선적인  html 요소 -->
+<!-- block 요소: 반대로 이미지 등 부피가 있는 요소 -->
+<!-- span태그 : 글자를 나타내는 태그 -->
