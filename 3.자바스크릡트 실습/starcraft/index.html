@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Starcraft</title>
+  </head>
+  <body>
+    <img id="cloacking" src="cloaking.png" alt="cloacking" />
+    <img id="wraith" src="wraith.png" alt="wraith" />
+    <!-- src 주소 alt:이미지 설명 -->
+    <!-- 같은 img태그를 구분짓기위해 id 태그를 이용 -->
+
+    <!-- jquery로 부터 cdn 최신버전 받아옴 jquery를 이용해 이미 만들어진 함수를 이용 -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $(document).ready(function() {
+        $("#cloacking").click(function() {
+          $("#wraith").toggle();
+        });
+      });
+    </script>
+
+    <!-- javascript는 script태그를 이용하여 연결 보통 바디태그 마지막에 넣음 -->
+  </body>
+</html>
