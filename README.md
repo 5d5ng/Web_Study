@@ -7,4 +7,4 @@
 [2.css 활용하여 구글홈페이지 만들기](https://github.com/5d5ng/Web_Study/tree/master/2.css%EC%8B%A4%EC%8A%B5) 
 form태그를 활용하여 구글 검색도 가능하게 만듬
 
-[3.Javascript 기초 클로킹버튼()](https://github.com/5d5ng/Web_Study/tree/master/3.%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%A1%ED%8A%B8%20%EC%8B%A4%EC%8A%B5/starcraft)
+[3.Javascript 기초 클로킹버튼(토글)](https://github.com/5d5ng/Web_Study/tree/master/3.%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%A1%ED%8A%B8%20%EC%8B%A4%EC%8A%B5/starcraft)
