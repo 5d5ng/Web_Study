@@ -8,6 +8,5 @@
 form태그를 활용하여 구글 검색도 가능하게 만듬
 
 [3.Javascript 기초 클로킹버튼(토글)](https://github.com/5d5ng/Web_Study/tree/master/3.%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%A1%ED%8A%B8%20%EC%8B%A4%EC%8A%B5/starcraft)
->>>>>>> 988c7dd9413377f0f08aa68433d66d63a43244c2
 
 [4.Javascript API 활용 도서검색 예제](https://github.com/5d5ng/Web_Study/tree/master/4.%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20API%ED%99%9C%EC%9A%A9)
