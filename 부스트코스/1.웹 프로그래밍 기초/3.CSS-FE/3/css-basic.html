@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        span {
+            color: red;
+        }
+
+        /* id찾을때 앞에# */
+        #myspan {
+            color: green;
+        }
+/* 태그 종류 상관없이 그냥 2번쨰  */
+        #jisu > p:nth-child(2){color:red;}
+/* 태그 종류 상관있음 jisu아래에서 2번째 type */
+        #jisu > P:nth-of-type(2){color:purple;}
+    </style>
+
+
+</head>
+
+<body>
+    <div>
+        <span id="myspan">my text is upper!</span>
+
+        <div id="jisu">
+            <h2>단락 첫번째</h2>
+            <p>첫번째 단락</p>
+            <p>두번쨰 단락</p>
+            <p>세번쨰</p>
+            <p>네번쨰</p>
+        </div>
+
+        <span id="myspan">my text is dummy</span>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+div >p{
+    color:red;
+    /* 인라인 인터널보다 우선순위가 낮다 */
+
+
+    border: 1px solid slategray
+}
