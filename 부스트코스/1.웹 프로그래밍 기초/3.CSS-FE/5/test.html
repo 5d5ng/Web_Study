@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div,p{
+            width:100px;
+            height: 100px;
+            border :1px solid gray;
+            
+        }
+        div > *{
+            /* 블록으로 display를 바꾸면 위아래로 배치가도니다 */
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div>
+        <span>나는 어떻게 배치되나욘?</span>
+        <span>좌우로 배치되는군요</span>
+        <a >링크는요?</a>
+        <strong>링크도 강조도 모두 좌우로 흐르는 군요 모두다 display 속성이 inline인 엘리먼트이기 때문</strong>
+        
+    </div>
+</body>
+
+</html>

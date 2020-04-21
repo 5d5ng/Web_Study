@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrap{
+            position: relative;
+        }
+        .wrap > div{
+            width:150px;
+            height: 100px;
+            border: 1px solid gray;
+            font-size: 0.7em;
+            text-align: center;
+            line-height: 100px;
+        }
+        .relative{
+            position: relative;
+            left: 10px;
+        }
+        .absolute{
+            /* 상위 relative를 기준으로 잡는다.  static 은 무시한다*/
+            position: absolute;
+            left:130px;
+            top:30px;
+        }
+        .fixed{
+            position: fixed;
+        /* 스크롤을 내려도 고정위치에 지정된다  */
+
+            top:250px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class = "wrap">
+        <div class ="static">static(default)</div>
+        <div class ="relative">relative (left:10px)</div>
+        <div class="absolute">absolute(left:130px;top:30px)</div>
+        <div class="fixed">fixed(top:250px)</div>
+    </div>
+</body>
+</html>

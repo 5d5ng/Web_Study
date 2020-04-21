@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div{
+            width:100px; height: 100px;
+            border:1px solid gray;
+            font-size:0.7em;
+        }
+        .blue{
+            background-color: blue;
+        }
+        .green{
+            /* float속성을 주면 원하는 방향쪽으로 붕뜨게된다 */
+            float:left;
+            background-color: green;
+        }
+
+        .red{
+            background-color: red;
+            /* green이 float으로 떠있기 때문에 red는 green이 없는 것으로 알고 blue다음 순서로 가게된다 */
+            /* 숨겨진 녹색을 드러내기 위해 relative로 살짝 옮김 */
+            position: relative;
+            left:20px;
+            /* float:left; */
+            
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="blue"></div>
+    <div class="green"></div>
+    <div class ="red"></div>
+</body>
+</html>

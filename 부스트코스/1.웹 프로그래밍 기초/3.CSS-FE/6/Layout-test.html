@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+            background-color: #aef;
+
+        }
+
+        #wrap {
+            /* 자식이 float이면 자식으로 생각하지 않는다. 그래서 색깔이 안먹음 */
+            /* overflow로 인식하도록 수정함 */
+            background-color: #eee;
+            overflow: auto;
+            margin: 20px 0px
+        }
+
+        footer {
+            background-color: #eee;
+
+            /* float 속성을 인식하도록 clear사용 */
+            clear: left;
+        }
+
+        .left,
+        .right,
+        .realright {
+            float: left;
+            height: 200px;
+
+        }
+
+        .left {
+            width: 17%;
+            margin-right: 3%;
+
+            background-color: greenyellow;
+        }
+
+        .right {
+            width: 60%;
+            text-align: center;
+            background-color: #aae;
+
+        }
+
+        .right>h2 {
+            position: relative;
+
+        }
+
+        .right .emoticon {
+            position: absolute;
+            top: 0px;
+            right: 5px;
+            color: #fff;
+
+        }
+
+        .realright {
+            width: 17%;
+            margin-left: 3%;
+            float: left;
+            height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>Boost Course is really useful</header>
+    <div id="wrap">
+       
+        <nav class="left">
+            <ul>
+                <li>menu</li>
+                <li>home</li>
+                <li>name</li>
+            </ul>
+        </nav>
+        <div class="right">
+            <h2>
+                <span> 반가워요</span>
+                <div class="emoticon">:-)</div>
+            </h2>
+            <ul>
+                <li>Crong</li>
+                <li>jk</li>
+                <li>honux</li>
+                <li>pobi</li>
+            </ul>
+        </div>
+
+        <div class="realright">
+            oh~right!
+        </div>
+    </div>
+    <footer>CodeSquard Corporation</footer>
+
+</body>
+
+</html>
