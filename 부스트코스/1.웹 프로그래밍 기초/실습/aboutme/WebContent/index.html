@@ -3,8 +3,109 @@
 <head>
 <meta charset="EUC-KR">
 <title>Insert title here</title>
+<style>
+body {
+	background: rgb(100, 150, 120);
+}
+
+.menu, .content, footer {
+	background: white;
+}
+
+footer {
+	margin-top: 10px;
+}
+
+.box, .contentBlock {
+	display: inline-block;
+}
+
+body {
+	margin-right: 7%;
+	margin-left: 7%;
+	text-align: center;
+}
+
+#menuButton {
+	width: 100px;
+	line-height: 2.5;
+	border-radius: 12px;
+	background-color: #ffff55;
+	box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6), inset -2px -2px
+		3px rgba(0, 0, 0, .6);
+}
+
+#contentButton {
+	width: 100px;
+	line-height: 2.5;
+	background-color: #ffff55;
+	box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6), inset -2px -2px
+		3px rgba(0, 0, 0, .6);
+}
+
+.buttons {
+	margin-left: 50%;
+}
+
+button {
+	transition-duration: 0.4s;
+}
+
+#menuButton:hover, #contentButton:hover {
+	background-color: rgba(0, 100, 250, 1);
+}
+</style>
 </head>
 <body>
-Hello!
+	<div class="menu">
+		<div class="buttons">
+			<div class="box">
+				<form action="./index.html" method="get">
+					<button id="menuButton">홈</button>
+				</form>
+			</div>
+			<div class="box">
+				<form action="./aboutme.html" method="get">
+					<button id="menuButton">자기소개</button>
+				</form>
+			</div>
+			<div class="box">
+				<form action="./photo.html" method="get">
+					<button id="menuButton">내 사진</button>
+				</form>
+			</div>
+			<div class="box">
+				<form action="./today" method="get">
+					<button id="menuButton">몇시에요</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="content">
+		<h1>주니어 개발자~! DEO</h1>
+		항상 배우며 성장하는 기업가가 되고싶어요!<br> 부산광역시 남구 대연동 어딘가 살고 있어요!
+		<p>
+		<form class="contentBlock" id="introduction" action="./aboutme.html"
+			method="get">
+			<button id="contentButton">자기소개</button>
+		</form>
+		<form class="contentBlock" id="photo" action="./photo.html"
+			method="get">
+
+			<button id="contentButton">내사진</button>
+
+
+
+		</form>
+		<br> <img class="map" src="./aboutme.png">
+
+	</div>
+
+	<footer>
+		<pre>https://5d5ng.tistory.com<br> https://5d5ng.github.com</pre>
+	</footer>
 </body>
 </html>
