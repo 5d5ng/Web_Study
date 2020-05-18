@@ -13,7 +13,7 @@
 <head>
 <meta charset="EUC-KR">
 <title>Insert title here</title>
-</head>
+</head>1
 <body>
 
 pageContext.getAttribute("p1") : <%=pageContext.getAttribute("p1")%> <br><p>
