@@ -29,11 +29,11 @@ public class TenServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 	
-		response.setContentType("text/html; charset=utf-8"); //ÀÀ´äÀ» º¸³»ÁÙ Å¸ÀÔÀ» ¾Ë·ÁÁÖ±â
+		response.setContentType("text/html; charset=utf-8"); //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½Ë·ï¿½ï¿½Ö±ï¿½
 		PrintWriter out = response.getWriter();
-		out.println("<h1>1ºÎÅÍ 10±îÁö Ãâ·Â<br><br></h>");
+		out.println("<h1>1ï¿½ï¿½ï¿½ï¿½ 10ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½<br><br></h>");
 		for(int i=1;i<=10;i++) {
-			out.print(i+"<br>"); //°³ÇàÀ» À§ÇØ brÅÂ±× Ãß°¡
+			out.print(i+"<br>"); //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ brï¿½Â±ï¿½ ï¿½ß°ï¿½
 		}
 	}
 
